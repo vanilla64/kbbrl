@@ -21,7 +21,7 @@ function ContactsPage({ title }) {
 
       <div style={{ display: 'flex', alignItems: 'center' }} className="col s4 white-text grey darken-4">
         <span style={{ marginRight: '10px' }} className="card-title material-icons">
-          <i className="material-icons">phone</i>
+          <i className="material-icons">phone_iphone</i>
         </span>
         <p>+7 (977) 994-68-94</p>
       </div>

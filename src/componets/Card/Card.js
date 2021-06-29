@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useRouteMatch, useHistory } from "react-router-dom"
+import './Card.sass'
 
 function Card({ card }) {
   const { id, title, description, images } = card
@@ -9,7 +10,7 @@ function Card({ card }) {
   const handleClick = () => history.push(`${path}/${id}`)
 
   return (
-    <div onClick={handleClick} className="col s4 z-depth-4">
+    <div onClick={handleClick} className="product-card col s4 z-depth-4">
       <div className="card large grey darken-3">
         <div className="card-image">
           <img src={images[0]} alt={title}/>
